@@ -6,6 +6,6 @@ namespace API.Src.Servicos
     {
         ClienteModelo CadastrarCliente(ClienteModelo cliente, bool chavePixAleatoria);
 
-        ClienteModelo ConsultarCliente(int documento);
+        ClienteModelo ConsultarCliente(long documento);
     }
 }

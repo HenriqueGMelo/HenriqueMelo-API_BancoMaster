@@ -44,7 +44,7 @@ namespace API.Src.Repositorios.Implementacoes
             }
         }
 
-        public ClienteModelo ConsultarClientePeloDocumento(int documento)
+        public ClienteModelo ConsultarClientePeloDocumento(long documento)
         {
             using (var db = new LiteDatabase(caminhoDoBancoDeDados))
             {

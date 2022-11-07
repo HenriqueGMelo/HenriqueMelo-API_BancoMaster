@@ -18,8 +18,11 @@ namespace API.Src.Servicos.Implementacoes
 
             if (contaCliente != null)
             {
+                if (valor <= 0)
+                {
+                    throw new Exception("Valor não permitido!");
+                }
                 contaCliente.Saldo += valor;
-
             }
             else
             {
@@ -57,7 +60,7 @@ namespace API.Src.Servicos.Implementacoes
                             _repositorio.AtualizarCliente(clienteOrigemTransferencia);
                         }
                     }
-                    return ("Sucesso!");
+                    return "Sucesso!";
                 }
                 else
                 {

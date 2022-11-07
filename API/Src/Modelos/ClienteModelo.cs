@@ -10,15 +10,15 @@ namespace API.Src.Modelos
         [JsonIgnore]
         public ObjectId Id { get; set; }
         [Required]
-        public int Documento { get; set; }
+        public long Documento { get; set; }
         public string Nome { get; set; }
         public string ChavePix { get; set; }
 
-        [JsonIgnore]
+        [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
         public double Saldo { get; set; }
 
         [BsonCtor]
-        public ClienteModelo (int documento, string nome, string chavePix)
+        public ClienteModelo (long documento, string nome, string chavePix)
         {
             Documento = documento;
             Nome = nome;

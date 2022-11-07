@@ -21,7 +21,7 @@ namespace API.Src.Controles
         /// <response code="200">Retorna cliente no qual buscou</response>
         /// <response code="401">Retorna cliente não encontrado</response>
         [HttpGet("ConsultarCliente/documento/{documento}")]
-        public ActionResult ConsultarCliente([FromRoute]int documento)
+        public ActionResult ConsultarCliente([FromRoute] long documento)
         {
             try
             {

@@ -6,7 +6,7 @@ namespace API.Src.Repositorios
     {
         bool CadastrarCliente(ClienteModelo cliente);
 
-        ClienteModelo ConsultarClientePeloDocumento(int documento);
+        ClienteModelo ConsultarClientePeloDocumento(long documento);
 
         ClienteModelo ConsultarClientePelaChavePix(string chavePix);
 

@@ -19,7 +19,7 @@ namespace API.Src.Servicos.Implementacoes
 
             if (cliente.Documento > 0)
             {
-                if (cliente.Nome == null || string.IsNullOrEmpty(cliente.Nome))
+                if (string.IsNullOrEmpty(cliente.Nome))
                 {
                     throw new Exception("Informe o Nome para cadastro!");
                 }
@@ -42,7 +42,10 @@ namespace API.Src.Servicos.Implementacoes
                             clienteRetorno = _repositorio.ConsultarClientePeloDocumento(cliente.Documento);
                         }
                     }
-                    else throw new Exception("Cliente já cadastrado");
+                    else 
+                    {
+                        throw new Exception("Cliente já cadastrado");
+                    }
                 }
                 else
                 {
@@ -51,12 +54,12 @@ namespace API.Src.Servicos.Implementacoes
             }
             else
             {
-                throw new Exception("Documento não pode ser 0");
+                throw new Exception("Documento invalido");
             }
             return clienteRetorno;
         }
 
-        public ClienteModelo ConsultarCliente(int documento)
+        public ClienteModelo ConsultarCliente(long documento)
         {
             var cliente = _repositorio.ConsultarClientePeloDocumento(documento);
 
