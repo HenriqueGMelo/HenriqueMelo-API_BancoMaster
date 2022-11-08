@@ -3,8 +3,10 @@
 ## Criação de uma API!
 
 ## Índice
-- <a href="#-tecnologias-utilizadas"> Tecnologias Utilizadas </a>
-- <a href="#-funcionalidades-da-API"> Funcionalidades da API </a>
+- <a href="#-Tecnologias-utilizadas"> Tecnologias Utilizadas</a>
+- <a href="#-Boas-Práticas"> Boas Práticas</a>
+- <a href="#-Funcionalidades-da-API"> Funcionalidades da API</a>
+- <a href="#-Autor">Autor</a>
 
 ## Tecnologias Utilizadas
 - C#
@@ -14,13 +16,16 @@
 - Swagger
 - Visual Studio 
 
+## Boas Práticas
+- Clean Code
+
 ## Funcionalidades da API 
 - <a href="#Cadastrar-Cliente"> Cadastrar Cliente <a/>
 - <a href="#Consultar-Cliente"> Consultar Cliente <a/>
 - <a href="#Transferencia-Pix "> Transferência Pix <a/>
 - <a href="#Depositar-Valor"> Depositar Valor <a/>
 
-## 
+
 - Cadastrar Cliente: 
 
 Cadastre um cliente utilizando Documento / Nome / Chave Pix 
