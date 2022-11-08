@@ -52,8 +52,10 @@ valor que deseja tranferir
 Foi utilizado este banco de dados pensando na questão de que todos possam 
 rodar esta aplicação em sua maquina e de modo que o banco será gerado na mesma
 sem a necessidade de que realize algumas ações caso utiliza-se um outro banco 
-(obs. apenas por este motivo, porém também é possivel criarmos o mesmo projeto  
-utilizando por exemplo o banco de dados SQL Server ao invés do LiteDB)
+
+(Obs. Apenas por este motivo foi utilizado o LiteDB, 
+porém também é possivel criarmos o mesmo projeto utilizando 
+por exemplo o banco de dados SQL Server ao invés do LiteDB)
 
 ## Autor
 [Henrique Melo]
