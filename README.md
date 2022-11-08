@@ -5,10 +5,13 @@
 ## Índice
 - <a href="#-tecnologias-utilizadas"> Tecnologias Utilizadas </a>
 - <a href="#-funcionalidades-da-API"> Funcionalidades da API </a>
+
 ## Tecnologias Utilizadas
 - C#
 - .NET
+-ASP.NET CORE
 - LiteDB
+- Swagger
 - Visual Studio 
 
 ## Funcionalidades da API 
