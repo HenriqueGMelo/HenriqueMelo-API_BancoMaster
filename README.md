@@ -9,7 +9,7 @@
 ## Tecnologias Utilizadas
 - C#
 - .NET
--ASP.NET CORE
+- ASP.NET CORE
 - LiteDB
 - Swagger
 - Visual Studio 
