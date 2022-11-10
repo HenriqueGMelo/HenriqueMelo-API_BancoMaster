@@ -30,7 +30,7 @@
 
 Cadastre um cliente utilizando Documento / Nome / Chave Pix 
 (existe a escolha de inserir uma informação para chave pix 
-ou gerar gera-la automaticamente). 
+ou gera-la automaticamente). 
 
 - Consultar Cliente: 
 
